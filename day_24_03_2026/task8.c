@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int arr[20] = {0}; // Initialize all elements to 0
+    int arr[20]; // Initialize all elements to 0
     int n = 10; // Number of initial elements
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
