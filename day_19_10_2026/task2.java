@@ -1,18 +1,18 @@
+import java.util.Arrays;
+
 public class task2 {
 
-    public static int multiply(int[] numbers) {
-        int total = 1;
+    public static void multiply(int[] numbers, int factor) {
 
         for (int number : numbers) {
-            total *= number;
+            number *= factor;
         }
 
-        return total;
+        System.out.println(Arrays.toString(numbers));
     }
 
     public static void main(String[] args) {
         int[] numbers = { 1, 2, 3, 4, 5 };
 
-        System.out.println("Multiplication = " + multiply(numbers));
     }
 }
