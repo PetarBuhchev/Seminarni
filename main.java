@@ -1,18 +1,15 @@
 public class Main {
-    public static void main(String[] args) {
-        // Write studentID here
-        int studentID = 121225001;
-        // Write score here
-        double score = 5.34;
+  // Create a String variable
+  String city = "London";
+  // Create an int variable
+  int population = 9000000;
 
-        // Write grade here
-        char grade = 'A';
-
-        // Print studentID
-        System.out.println(studentID);
-        // Print score
-        System.out.println(score);
-        // Print grade
-        System.out.println(grade);
-    }
+  public static void main(String[] args) {
+    // Create a Main object
+    Main myObj = new Main();
+    // Print city the object
+    System.out.println(myObj.city);
+    // Print population using the object
+    System.out.println(myObj.population);
+  }
 }
